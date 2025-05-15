@@ -1,0 +1,6 @@
+gradio
+transformers
+pytest
+bcrypt
+pydantic
+uuid
