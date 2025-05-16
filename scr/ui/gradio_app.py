@@ -1,4 +1,11 @@
 import gradio as gr
+from src.controllers.cli_controller import CLIController
+from src.services.poll_service import PollService
+from src.services.user_service import UserService
+from src.services.nft_service import NFTService
+from src.repositories.poll_repo import PollRepository
+from src.repositories.usuario_repo import UsuarioRepository
+from src.repositories.nft_repo import NFTRepository
 
 def lanzar_ui(ui_controller):
     def votar_interface(poll_id, username, opciones):
